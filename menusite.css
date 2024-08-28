@@ -1,0 +1,111 @@
+
+/* Estilo do menu de navegação */
+
+body{
+background-image: url(https://wallpapers.com/images/hd/mega-man-pixel-art-pqphdgd0q7y5wot3.jpg);
+background-size: cover;
+height: 100%;
+position: relative;
+}
+
+nav {
+background-color: rgb(129, 194, 255); /* Cor de fundo do menu */ 
+padding: 10px 0; /* Espaçamento interno */
+}
+
+nav ul {
+list-style-type: none; /* Remove as bolinhas padrão da
+lista */
+margin: 0;
+padding: 0;
+display: flex; /* Faz com que os itens fiquem lado a lado (horizontal) */ 
+justify-content: center; /* Centraliza os itens horizontalmente */ 
+}
+
+nav ul li {
+margin: auto 15px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+color: rgb(0, 0, 0); /* Cor do texto dos links */
+text-decoration: none; /* Remove o sublinhado dos links */
+font-size: 18px; /* Tamanho da fonte */
+transition: color 0.3s; /* Transição suave para a mudança de cor */
+font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul li a:hover {
+color: #ff6347; /* Cor do texto ao passar o mouse (hover)*/
+}
+.content{
+    
+    flex: 1;
+    height: 100%;
+}
+
+/* Estilo geral do footer */
+footer {
+    background-color: rgba(39, 105, 180, 0.4);
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+    bottom: 0;
+    position: relative;
+    }
+
+    .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    }
+
+    .footer-section {
+    flex-basis: 25%; /* Faz com que as seções ocupem 25%
+    da largura, com espaço para margens */
+    margin-bottom: 20px;
+    }
+
+    footer-section h4 {
+    margin-bottom: 1px;
+    font-size: 10px;
+    color: #ff6347;
+    }
+
+    .footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    }
+
+    .footer-section ul {
+    list-style-type: none;
+    }
+
+    footer-section ul li { margin-bottom: 10px; }
+
+.footer-section ul li a {
+color: white;
+text-decoration: none; transition: color 0.3s; }
+footer-section ul li a:hover { color: #ff6347; }
+
+social-links a {
+display: inline-block;
+margin-right: 10px;
+color: white;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+social-links a:hover { color: #ff6347; }
+.footer-bottom {
+text-align: center;
+margin-top: 2px;
+padding: 0px 0;
+border-top: 1px solid #444;
+font-size: 14px;
+}
+footer-bottom p { margin: 0;
+}
